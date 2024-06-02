@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    border: 2px solid black;
+    background-color: darkmagenta;
+}
+.conatiner{
+    display: block;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    position: relative;
+    top: 25vh;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.tick{
+    height: 13vh;
+    width: 14vh;
+    border-radius: 9px;
+    border: 2px solid black;
+    padding: 0; /* Ensure no padding is applied */
+    margin: 1vh; /* Add some margin for spacing */
+    box-sizing: border-box; /* Include border in the element's dimensions */
+    background-color: white; 
+    font-size: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorange;
+    color: white;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+}
+
+.row3{
+    display: flex;
+    justify-content: center;
+}
+.newgame {
+    font-size: 2vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    align-content: center;
+    top: 32vh;
+    left: 103vh;
+    height: 13vh;
+    width: 14vh;
+    border: 2px solid black;
+    border-radius: 11px;
+    background-color: blue;
+    color: white;
+}
+.msg{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 85px;
+    font-size: 33px;
+    color: white;
+    border: 2px dotted;
+    width: 334px;
+    left: 591px;
+}
+#head{
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-bottom: 2px dotted;
+}
